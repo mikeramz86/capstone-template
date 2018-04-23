@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: b+mbIU3MUJ0/NHl9Bz4pb/ol5fL79sg8UBkn8KuwMEWIHnVNMbHVCGIABJA1nFsOb5hM1PYFmiV2rIEcA8N7Vw0nHDFaBIkZXKWYfdCPSdzqj53GIm9Uq+dFTpk1dQaFA/pugvhcUqZEz1qwX0Cf86Mwvvrp9pSwpxPRMUGPPXJr4E5XUUW30MSVBGw1kl5ZCTAA9RapWPjDSBeYtalePLin4Xbep3FGnwENEn4t8jleMz9SL50942M//D/MtVBGO0bjULRcd8lXqieZ2U3kVT/jn8bqVWFJvopNM9C63pFyjd4t8HOymNTKXj0fW/Ad4w4VMjiPNi2UcHrCD4ZeAqXPfTmbdF6a91NuYKeBjtnUuqbexSkLE6l87jrVpzUn536VExMXe37cgIQkTsVkqSZ5mgiL9qU92xNve3KRvj2MZoKYAdmoH0SKIwipVS9npOTG5mRqJC/RDP3Nhki5ZHKPIU/qzKfRxSs6d+VplmCoJDv9ZLMd7dlV+Vf/fIPm+PQ+b1/T7Rw0H7Hwb5YlRcLiHgUN7NrCfdbN6IOuVtQIL4hGf1lK/vM/7AB0KX6poU7g0+QJM7NFVodeCDi9ruNaTWfCec7wIPQeYuT49AUuFgKurj8+yURjZmmPRuHwP/qyJpkjtUOrP1M7eGnb+m5hK3LdrB7aouhqGaj9LXM=
+  app: nameless-citadel-79566
+  on:
+    repo: mikeramz86/capstone-template
